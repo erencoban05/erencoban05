@@ -1,4 +1,210 @@
-Body {
-    background-color: #2C3333;  
-    font-family: 'Open Sans', sans-serif;
+* {
+  background-color: #edf6f9;
+  font-family: 'Poppins', sans-serif;
+  padding:0;
+  margin:0;
+}
+
+h1 {
+  font-size: 50px;
+  color: #6aa09b;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+h4 {
+    font-size: 25px;
+    color: #476e6a;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  color: #6aa09b;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 40px;
+}
+
+p {
+  background-color: transparent;
+}
+
+i {
+  background-color: transparent;
+  color: #2e3f3e;
+}
+
+a {
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.image1 {
+  height: 20%;
+  width: 20%;
+  margin-bottom: 0;
+  border: 7px solid #83c5be;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  margin-bottom: 0;
+  display: block;
+  cursor: pointer;
+  
+}
+
+.image1:hover {
+  animation: shake 0.5s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(0.5px, 0.5px) rotate(0deg); }
+  10% { transform: translate(-0.5px, -1px) rotate(-1deg); }
+  20% { transform: translate(-1.5px, 0px) rotate(1deg); }
+  30% { transform: translate(1.5px, 1px) rotate(0deg); }
+  40% { transform: translate(0.5px, -0.5px) rotate(1deg); }
+  50% { transform: translate(-0.5px, 1px) rotate(-1deg); }
+  60% { transform: translate(-1.5px, 0.5px) rotate(0deg); }
+  70% { transform: translate(1.5px, 0.5px) rotate(-1deg); }
+  80% { transform: translate(-0.5px, -0.5px) rotate(1deg); }
+  90% { transform: translate(0.5px, 1px) rotate(0deg); }
+  100% { transform: translate(0.5px, -1px) rotate(-1deg); }
+}
+
+.btn1 {
+	background-color:#e29578;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+  margin-top: 15px;
+	color:#ffffff;
+  font-family: 'Poppins','sans-serif';
+	font-size:14px;
+	padding:13px 18px;
+	text-decoration:none;
+  transition: background 1s, border-radius 0.2s;
+}
+
+.btn1:hover {
+  border-radius: 12px;
+	background-color:#f8a587;
+}
+
+.btn2 {
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+  background: transparent;
+  margin-top: 15px;
+	color:#41706c;
+  font-family: 'Poppins','sans-serif';
+	font-size:20px;
+  margin: 10px;
+	text-decoration:none;
+  transition: color 1s;
+}
+
+.btn2:hover {
+	color: #5a9792;
+}
+
+.bg1 {
+  background-color: grey;
+  padding:20px;
+}
+
+.kare {
+  height: 500px;
+  width: 700px;
+  float:left;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #7eada9;
+  border: 5px solid #41706c ;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.kare2 {
+  height: 500px;
+  width: 700px;
+  float: right;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: #7eada9;
+  border: 5px solid #41706c ;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.kare h4 {
+  color:#3d3d3d;
+  font-size: 20px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.kare p{
+  font-size: 20px;
+  color: rgb(238, 238, 238);
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.kare2 h4 {
+  color:#3d3d3d;
+  float: left;
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.kare2 p{
+  font-size: 25px;
+  color: rgb(92, 92, 92);
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+@media (max-width: 1000px) {
+  .image1 {
+    height: 70%;
+    width: 70%;
+    margin-bottom: 0;
+    border: 7px solid #83c5be;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-bottom: 0;
+    display: block;
+    cursor: pointer;
   }
+  
+  .btn1 {
+    background-color:#e29578;
+    border-radius:20px;
+    display:inline-block;
+    cursor:pointer;
+    margin-top: 15px;
+    color:#ffffff;
+    font-family: 'Poppins','sans-serif';
+    font-size:20px;
+    padding:20px 50px;
+    text-decoration:none;
+    transition: background 1s, border-radius 0.2s;
+  }
+  
+  .btn1:hover {
+    border-radius: 12px;
+    background-color:#f8a587;
+  }
+
+}
