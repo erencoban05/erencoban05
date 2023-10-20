@@ -1,8 +1,13 @@
 * {
-  background-color: #edf6f9;
   font-family: 'Poppins', sans-serif;
   padding:0;
   margin:0;
+}
+
+body{
+  background-image: url('assets/bg.gif');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -86,6 +91,7 @@ a {
   margin-top: 15px;
 	color:#ffffff;
   font-family: 'Poppins','sans-serif';
+  font-weight: 500;
 	font-size:14px;
 	padding:13px 18px;
 	text-decoration:none;
@@ -207,4 +213,22 @@ a {
     background-color:#f8a587;
   }
 
+  h1 {
+    font-size: 50px;
+    color: #6aa09b;
+    text-align: center;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  h4 {
+      font-size: 25px;
+      color: #476e6a;
+      background-color: white;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0;
+  }
+  
 }
